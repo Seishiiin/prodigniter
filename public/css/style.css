@@ -1,0 +1,254 @@
+/* Stylisation générale               */
+
+::-webkit-scrollbar {
+    width: 10px;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+::-webkit-scrollbar-track {
+    background: #f1f1f1;
+}
+
+::-webkit-scrollbar-thumb {
+    background: #be3455;
+
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+::-webkit-scrollbar-thumb:hover {
+    background: #be3455;
+
+    border-top-left-radius: 0;
+    border-bottom-left-radius: 0;
+}
+
+img {
+    width: 50px;
+}
+
+section {
+    padding-left: 5px;
+    padding-right: 5px;
+
+    margin: auto;
+
+    width: 85%;
+}
+
+/* Fin de la stylisation générale     */
+/*------------------------------------*/
+/* Stylisation du fomulaire de login  */
+
+#sectionLogin {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    height: 100vh;
+    width: 100vw;
+}
+
+#sectionLogin .card {
+    width: 800px;
+    height: 400px;
+
+    border-radius: 10px;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+}
+
+#sectionLogin .card form {
+    padding: 40px 10px;
+}
+
+#sectionLogin .card .row {
+    display: flex;
+
+    justify-content: left;
+    align-items: center;
+}
+
+#sectionLogin .card i {
+    font-size: 20px;
+
+    color: #be3455;
+}
+
+#btnLogin {
+    width: 200px;
+
+    background-color: #be3455;
+    color: #ffffff;
+
+    border-radius: 10px;
+    border: none;
+}
+
+/* Fin de la stylisation du form. log */
+/*------------------------------------*/
+/* Stylisation de la navbar           */
+
+.navbar {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.2);
+
+    margin-bottom: 40px;
+    padding: 5px 75px !important;
+}
+
+.nav-item a {
+    display: flex;
+    align-items: center;
+
+    margin-right: 10px;
+
+    color: #be3455;
+}
+
+.nav-item a:hover {
+    color: #be3455;
+    background: rgba(190, 52, 85, 0.2);
+
+    border-radius: 15px;
+}
+
+.nav-item a i {
+    margin-right: 3px;
+
+    color: #be3455;
+}
+
+/* Fin de la stylisation de la navbar */
+/*------------------------------------*/
+/* Stylisation du tableau             */
+
+thead {
+    position: sticky;
+    top: 0;
+
+    background: white;
+    color: #000000;
+}
+
+.bg-viva-magenta {
+    background-color: #be3455 !important;
+    color: #ffffff !important;
+}
+
+.bg-viva-magenta i {
+    width: 50px;
+    color: #ffffff !important;
+}
+
+td {
+    vertical-align: middle;
+}
+
+tbody i {
+    color: #ffffff;
+    background: #000000;
+
+    padding: 5px;
+    margin: 0 5px;
+
+    border-radius: 5px;
+}
+
+/* Fin de la stylisation du tableau   */
+/*------------------------------------*/
+/* Stylisation des statistiques       */
+
+.statistiques {
+    width: 100%;
+    height: auto;
+
+    padding: 30px 40px;
+
+    border-radius: 10px;
+
+    background-color: rgba(190, 52, 85, 0.2);
+}
+
+.statistiques h3 {
+    font-weight: 900;
+
+    margin-left: 12px;
+}
+
+.statistiques .container {
+    margin-top: 30px;
+
+    font-size: 16px;
+}
+
+.statistiques .container .badge {
+    background-color: #be3455;
+}
+
+/* Fin de la stylisation des statist. */
+/*------------------------------------*/
+/* Stylisation du formulaire          */
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group .form-group {
+    display: flex;
+
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-group .form-group input[type="text"] {
+    margin-right: 10px;
+}
+
+/* Fin de la stylisation du formulai. */
+/*------------------------------------*/
+/* Stylisation du modal               */
+
+#libelleCateg {
+    margin: 20px auto 0 auto;
+
+    width: 90%;
+}
+
+/* Fin de la stylisation du modal     */
+/*------------------------------------*/
+/* Stylisation du footer              */
+
+footer {
+    margin-top: 40px;
+}
+
+footer .quote {
+    background: #be3455;
+    color: #ffffff;
+
+    padding: 5px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer .copyrights {
+    background: #000000;
+    color: #ffffff;
+
+    padding: 5px 10px;
+
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+/* Fin de la stylisation du footer    */
