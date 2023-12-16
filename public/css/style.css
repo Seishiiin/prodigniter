@@ -223,6 +223,24 @@ tbody i {
 
 /* Fin de la stylisation du modal     */
 /*------------------------------------*/
+/* Stylisation du bouton              */
+
+#insertProd {
+    margin: 20px auto 0 auto;
+    padding: 5px 10px;
+
+    width: 100%;
+    height: auto;
+
+    border: none;
+    border-radius: 5px;
+
+    color: white;
+    background-color: #be3455;
+}
+
+/* Fin de la stylisation du bouton    */
+/*------------------------------------*/
 /* Stylisation du footer              */
 
 footer {

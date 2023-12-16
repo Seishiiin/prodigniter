@@ -69,7 +69,7 @@
 
             return view('template/header')
                  . view('template/menu')
-                 . view('admin_prod',$data)
+                 . view('admin_prod', $data)
                  . view('template/footer');
         }
 

@@ -11,8 +11,15 @@
         public function isAdmin($nom,$pwd): int {
             $db = Database::connect();
             $builder = $db -> table('users');
-            $query = $builder -> getWhere(['nom' => $nom, 'password' => $pwd, 'role' => 'admin']);
-            return count($query -> getResult());
+            $query = $builder -> getWhere(['nom' => $nom, 'role' => 'admin']);
+
+            $user = $query -> getFirstRow();
+
+            if ($user && password_verify($pwd, $user -> password)) {
+                return true;
+            }
+
+            return false;
         }
 
     }
